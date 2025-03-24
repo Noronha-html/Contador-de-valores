@@ -1,0 +1,32 @@
+*
+*::before
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container
+{
+    width: 30%;
+    height: 30%;
+    background-color: red;
+    border-radius: 24px;
+    padding-top: 3%;
+}
+
+.screen
+{
+    background-color: white;
+    border-radius: 16px;
+}
